@@ -1,0 +1,46 @@
+/* Styles for the header */
+header {
+  background-color: #4f6593;
+  padding: 1rem;
+}
+
+/* Styles for the navigation bar */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Styles for the list items */
+nav ul li {
+  margin: 0 1rem;
+}
+
+/* Styles for the NavLink */
+nav ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size:large;
+}
+
+/* Styles for the button */
+nav ul li button {
+  background: rgb(34, 98, 135);
+  cursor: pointer;
+  color: antiquewhite;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+nav ul li button:hover {
+  background: rgb(24, 68, 95);
+}
+
+nav ul li button:active {
+  background: rgb(14, 48, 75);
+}
