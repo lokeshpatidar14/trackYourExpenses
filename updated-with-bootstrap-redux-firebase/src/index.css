@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  text-align: center;
+}
+
+/* Add this to your main CSS file (e.g., index.css) */
+
+:root {
+  --bg-color: #fff;
+  --text-color: #000;
+  --button-bg-color: #007bff;
+  --button-text-color: #fff;
+  --button-hover-bg-color: #0056b3;
+  --list-item-bg-color: #f8f9fa;
+}
+
+.dark-mode {
+  --bg-color: #333;
+  --text-color: #fff;
+  --button-bg-color: #444;
+  --button-text-color: #fff;
+  --button-hover-bg-color: #555;
+  --list-item-bg-color: #555;
+}

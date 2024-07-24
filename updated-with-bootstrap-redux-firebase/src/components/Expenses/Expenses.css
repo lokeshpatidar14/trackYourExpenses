@@ -1,0 +1,41 @@
+.expenses-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .add-expenses,
+  .expenses-list-container {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .btn-btn {
+    margin-top: 10px;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode input,
+  .dark-mode select,
+  .dark-mode button {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .dark-mode input::placeholder,
+  .dark-mode select::placeholder,
+  .dark-mode button::placeholder {
+    color: #bbb;
+  }
+  
