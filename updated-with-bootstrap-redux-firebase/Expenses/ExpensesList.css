@@ -1,0 +1,12 @@
+.expenses-list-container {
+  padding: 20px;
+}
+
+.expenses-list-container.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-btn {
+  margin-top: 20px;
+}

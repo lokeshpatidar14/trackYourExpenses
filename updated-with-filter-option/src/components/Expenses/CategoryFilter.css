@@ -1,0 +1,11 @@
+.category-filter {
+  margin-bottom: 20px;
+}
+
+.category-filter label {
+  margin-right: 10px;
+}
+
+.category-filter select {
+  padding: 5px;
+}

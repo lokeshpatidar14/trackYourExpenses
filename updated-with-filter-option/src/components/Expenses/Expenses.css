@@ -1,0 +1,30 @@
+.expenses-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.add-expenses,
+.expenses-list-container,
+.category-filter {
+  width: 30%;
+  margin: 10px;
+}
+
+body.premium-theme {
+  background-color: #121212;
+  color: white;
+}
+
+.btn-btn {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-btn:hover {
+  background-color: #3700b3;
+}
